@@ -5,6 +5,7 @@ import de.parwar.lobbyplugin.handlers.PlayerHandler;
 import de.parwar.lobbyplugin.listeners.BreakBlockListener;
 import de.parwar.lobbyplugin.listeners.PlaceBockListener;
 import de.parwar.lobbyplugin.listeners.PlayerDamage;
+import de.parwar.lobbyplugin.listeners.PlayerHunger;
 import org.bukkit.Bukkit;
 import org.bukkit.plugin.java.JavaPlugin;
 
@@ -21,6 +22,7 @@ public final class LobbyPlugin extends JavaPlugin {
         new PlaceBockListener(this);
         new PlayerHandler(this);
         new PlayerDamage(this);
+        new PlayerHunger(this);
     }
 
     @Override
