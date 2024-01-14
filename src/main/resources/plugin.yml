@@ -1,0 +1,10 @@
+name: LobbyPlugin
+version: '${project.version}'
+main: de.parwar.lobbyplugin.LobbyPlugin
+api-version: '1.8.8'
+commands:
+  menu:
+    usage: /menu
+channels:
+  - BungeeCord
+
